@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
           title: Text('Welcome $usernameAPI'),
           actions: [
             IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.exit_to_app),
               onPressed: () {
                 SharedPref.signOut();
                 Navigator.pushNamed(context, LoginScreen.id);
